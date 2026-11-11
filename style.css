@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e6e6fa;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 320px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.foto-profil {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 8px;
+}
+
+.nis {
+    margin-bottom: 16px;
+    color: #666;
+}
+
+.deskripsi {
+    margin-bottom: 24px;
+}
+
+.sosmed {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #9370db;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.sosmed:hover {
+    background-color: #6a5acd;
+}
